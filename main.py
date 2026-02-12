@@ -211,7 +211,7 @@ async def crear_dni(
     rol_verificado = discord.utils.get(interaction.guild.roles, name="Ciudadano Verificado")
     rol_sin_verificar = discord.utils.get(interaction.guild.roles, name="Sin Verificar")
     if rol_verificado:
-        await interaction.user.add_roles(👤_|_Ciudadano_de_Miami)
+        await interaction.user.add_roles(_Ciudadano_de_Miami)
     if rol_sin_verificar:
         await interaction.user.remove_roles(rol_No_verificado)
 
