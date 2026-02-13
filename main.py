@@ -161,7 +161,7 @@ async def on_member_join(member):
     except:
         pass
 
-    channel = member.guild.get_channel(https://discord.com/channels/1168779885095944215/1168779886001926176)  # Cambia por el ID real de tu canal
+    channel = member.guild.get_channel(116879886001926176)  # Cambia por el ID real de tu canal
     if channel:
         await channel.send(f"¡Bienvenido {member.mention} a Miami Roleplay! Crea tu DNI con **/crear-dni** para acceder a el servidor.")
 
