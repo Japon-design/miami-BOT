@@ -269,4 +269,4 @@ async def editar_dni(interaction: discord.Interaction, campo: str, valor: str):
 
 # Inicia el bot
 
-bot.run(os.getenv('MTQ3MTU2MTY2NjQxMDk3NTMwNA.GimXOs.5D9XG30ij2R5nQMEDoK7aehrYYN83OH5MvM2SA'))
+bot.run(os.getenv('MTQ3MTU2MTY2NjQxMDk3NTMwNA.GLo8mQ.VrPOhLWSU2cfauYC1YbWjyH2HvqOXj9RyMZDsw'))
